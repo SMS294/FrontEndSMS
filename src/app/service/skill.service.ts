@@ -2,12 +2,13 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Skill } from 'app/model/skill';
 import { Observable } from 'rxjs';
+import { environments } from 'environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SkillService {
- URL = 'http://localhost:8080/educacion/'
+ URL = environments.URL + '/skill/'
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Skill[]>{
