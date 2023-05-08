@@ -4,7 +4,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 import { Observable, observable } from 'rxjs';
 import { LoginUsuario } from '../model/login-usuario';
 import { JwtDto } from '../model/jwt-dto';
-import { environments } from 'environments/environment';
+import { environment } from 'environments/environment';
 
 
 
@@ -13,7 +13,7 @@ import { environments } from 'environments/environment';
   providedIn: 'root'
 })
 export class AuthService {
-  URL = environments.URL + '/auth/';
+  URL = environment.URL + '/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
