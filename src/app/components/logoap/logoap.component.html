@@ -12,9 +12,15 @@
     <li class="list-group-item">
        
      <!-- boton que envia al login-->
-       <a href="../login" >  <i class="fa-solid fa-user-lock  fa-2x text-white" ></i></a>
-      
-      </li>
+       <a href="../login" >  <i class="fa-solid fa-user-lock  fa-2x text-white"></i></a>
+     <!-- boton de salida-->
+    </li>
+
+    
+       <!-- boton de salida-->
+       <button type="button" class="fa-solid fa-user-lock  fa-2x text-white" *ngIf="isLogged" (click)="onLogOut()"></button> 
+    
+
     </ul></div>
   </nav>
   

@@ -3,7 +3,7 @@ export class persona {
     nombre: String;
     apellido: String;
     img: String;
-    descripcion: String;
+    
 
     constructor (nombre: String, apellido: String, img: String){
     this.nombre = nombre;
