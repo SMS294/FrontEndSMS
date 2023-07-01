@@ -1,3 +1,8 @@
 /Backend/nbproject/
 node_modules
 .angular/cache/15.0.3/angular-webpack/4336ed3959a43b6c60170ba939308abf69eee773/1.pack
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json

@@ -17,16 +17,19 @@ div {
     }
 }
 
-@media (max-width : 575px) {
+@media (max-width : 576px) {
     #fotodeperfil {
-        position:absolute;
-        width: 30%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 33%;
-        top: 950px;
-    }
-}
+         }
+        }
+
+.descripcion{
+     display: flex;
+     justify-content: center;
+     align-items: center;   
+}        
+             
 /*etiqueta nombre*/
 #nombre {
     font-weight: bold;

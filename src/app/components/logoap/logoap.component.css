@@ -33,6 +33,10 @@
     color: #f700ff  !important;
 }
 
+button {
+    background-color:#a1b5cb;
+}
+
 
 #logoAP {
     width: 150px;
